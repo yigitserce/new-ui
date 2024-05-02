@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .simulatinZone {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color:rgb(42, 42, 155);
+  }
+  
+
+.tableSite{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top:0%;
+    color: white;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
+    
+
+}
+.tableSite div{
+  background-color: black;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+
+.midLine{
+  background-color: black;
+  z-index: 2;
+  position: absolute;
+  right: 50%;
+  height: 100%;
+  width: 15px;
+}
+.TextSide{
+  display: flex;
+  justify-content: space-around;
+}
+
+.TextSide h4{
+  color:white;
+  font-size: 36px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+canvas{
+  z-index: -1;
+}
